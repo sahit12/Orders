@@ -3,6 +3,8 @@
 ## Instructions to run the code
 * `git clone https://github.com/sahit12/Orders.git && cd Orders`
 
+* `source venv/bin/activate`
+
 * `python order/manage.py runserver`
 
 * Paste your data in POSTMAN with the request method being a **POST** and API as `http://127.0.0.1:8000/orders/`. Add the data under **Body** tab. (Example data below)
